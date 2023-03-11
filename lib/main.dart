@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'baris_kolom.dart';
+import 'package:flutter_belajar/hello_world.dart';
+import 'hello_world.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Klinik',
-      home: ColumnRowWidget(),
+      home: HelloWorld(),
     );
   }
 }
